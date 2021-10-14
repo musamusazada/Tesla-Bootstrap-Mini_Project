@@ -1,0 +1,189 @@
+/* Defaults */
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    margin-left: 4px;
+}
+
+a:hover {
+    color: #e63946 !important;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    background-color: #111818e3;
+}
+
+.navbar-toggler-icon {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png);
+}
+
+.navbar-brand {
+    font-family: 'Michroma', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+header .btn {
+    font-size: 0.875rem;
+    background: white;
+    color: black;
+    transition: 0.5s;
+}
+
+header .btn:hover {
+    color: #e63946;
+    transform: translateY(-1px);
+}
+
+#custom-breadcrumb {
+    padding: 190px 0;
+    background-image: url(https://wallpaperaccess.com/full/486864.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.342);
+    background-blend-mode: multiply;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: white;
+}
+
+.breadcrumb-item a:hover {
+    color: #e63946 !important;
+}
+
+#content {
+    margin: 100px 0;
+}
+
+.card {
+    margin-bottom: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.card a:hover {
+    color: white !important;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.col-3 .input-search {
+    display: inline-block;
+    position: relative;
+    border: 1px solid rgb(206, 202, 202);
+    padding: 10px 0;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.col-3 .input-search .fa-searchengin {
+    font-size: 1.1rem;
+    color: gray;
+    margin-right: 0.5rem;
+}
+
+.col-3 .input-search input {
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+}
+
+.col-3 h2 {
+    color: #111818e3;
+}
+
+.col-3 .post {
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid rgba(182, 182, 182, 0.767);
+    padding-bottom: 20px;
+}
+
+.col-3 .post .img-box {
+    object-fit: cover;
+    width: 65%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.col-3 .post .img-box img {
+    max-width: 100%;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.col-3 .post:hover .img-box img {
+    transform: scale(1.2);
+}
+
+.col-3 .post .desc-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.col-3 .post .desc-box h3 {
+    font-size: 1.6rem;
+    transition: 0.5s;
+}
+
+.col-3 .post:hover .desc-box h3 {
+    color: #e63946;
+}
+
+.col-3 h3 {
+    cursor: pointer;
+}
+
+.col-3 h3:hover {
+    color: #e63946;
+}
+
+.icon-box.d-flex {
+    gap: 20px;
+}
+
+.icon-box .fas {
+    font-size: 2.5rem;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.icon-box .fas:hover {
+    color: #e63946;
+}
+
+footer {
+    background-color: #111818e3;
+    padding: 40px 0 80px 0;
+}
+
+footer .col-6 {
+    color: white;
+}
+
+footer .col-6.d-flex .col-3 div {
+    color: white;
+    transition: 0.5s;
+    margin-bottom: 10px;
+}
+
+footer .col-6.d-flex .col-3 div:hover {
+    color: #e63946;
+}
+
+footer .col-6.d-flex .col-3 div:hover a {
+    padding-left: 10px;
+    color: #e63946;
+}
